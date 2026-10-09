@@ -41,5 +41,5 @@ Java와 Spring Boot로 웹 서비스를 만드는 신입 백엔드 개발자입�
 
 - [Product Management API](https://github.com/jinsung-mo/product-management-apk)는 도메인 주도 설계(DDD)와 DIP(의존성 역전)를 기반으로 DB 구현체 변경에도 비즈니스 로직이 영향받지 않도록 아키텍처를 실습한 프로젝트입니다.
 - [Order Management API](https://github.com/jinsung-mo/order-management-apk)는 상태 패턴(State Pattern)을 적용해 조건문 없는 상태 전이를 구현하고, 주문 시점 스냅샷으로 데이터 무결성을 다룬 객체지향 아키텍처 학습 프로젝트입니다.
-- 
+
 컴퓨터공학을 전공했고, SSAFY 15기 Java 과정에서 웹 개발을 공부했습니다. 정보처리기사 자격을 보유하고 있습니다.
