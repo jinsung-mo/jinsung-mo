@@ -11,7 +11,7 @@ Java와 Spring Boot를 주로 사용하는 신입 백엔드 개발자입니다.
 **주력**  
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-Java · Spring Boot · Spring Data JPA · SQL · MySQL · PostgreSQL
+Spring Data JPA · SQL
 
 **함께 사용한 기술**  
 HTML · CSS · JavaScript · REST API · Flyway · Git · Jira
