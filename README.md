@@ -33,9 +33,9 @@ Java와 Spring Boot로 웹 서비스를 만드는 신입 백엔드 개발자입�
 
 ## 참여한 프로젝트
 
-- **[삐용](https://github.com/jinsung-mo/-BBIYONG-autonomous_driving_factory_patrol_robot)**은 자율 순찰 로봇의 상태와 화재 경보를 웹에서 확인하는 시스템입니다. 관제 서버와 로봇·웹 통신을 맡았습니다.
-- **[가볼래](https://github.com/jinsung-mo/gabolle-busan-travel)**는 외국인 여행객이 부산 일정을 만들고 함께 수정하는 서비스입니다. 여행·일정 백엔드와 PostgreSQL 저장 로직을 맡았습니다.
-- **[빈자리](https://github.com/jinsung-mo/Smart-Parking-Lot-Monitoring-Service_BINJAIR)**는 주차장 영상에서 빈자리를 찾아 앱에 알려주는 서비스입니다. 영상 분석 서버와 주차면 상태 API를 맡았습니다.
-- **[CERTMAP](https://github.com/jinsung-mo/certmap)**에서는 취업 준비생 100명을 조사해 학습계획 서비스로 방향을 바꿨습니다. DB와 API를 다시 설계했습니다.
+- [삐용](https://github.com/jinsung-mo/-BBIYONG-autonomous_driving_factory_patrol_robot)은 자율 순찰 로봇의 상태와 화재 경보를 웹에서 확인하는 시스템입니다. 관제 서버와 로봇·웹 통신을 맡았습니다.
+- [가볼래](https://github.com/jinsung-mo/gabolle-busan-travel)는 외국인 여행객이 부산 일정을 만들고 함께 수정하는 서비스입니다. 여행·일정 백엔드와 PostgreSQL 저장 로직을 맡았습니다.
+- [빈자리](https://github.com/jinsung-mo/Smart-Parking-Lot-Monitoring-Service_BINJAIR)는 주차장 영상에서 빈자리를 찾아 앱에 알려주는 서비스입니다. 영상 분석 서버와 주차면 상태 API를 맡았습니다.
+- [CERTMAP](https://github.com/jinsung-mo/certmap)에서는 취업 준비생 100명을 조사해 학습계획 서비스로 방향을 바꿨습니다. DB와 API를 다시 설계했습니다.
 
 컴퓨터공학을 전공했고, SSAFY 15기 Java 과정에서 웹 개발을 공부했습니다. 정보처리기사 자격을 보유하고 있습니다.
