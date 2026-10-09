@@ -15,9 +15,9 @@ Java와 Spring Boot로 웹 서비스를 만드는 신입 백엔드 개발자입�
   <tr>
     <td valign="top">
       <strong>특기</strong><br>
-      알고리즘 문제 매일 1개<br><br>
+      알고리즘 문제 매일 1개 풀이 (꾸준한 코드 작성 및 문제 해결 감각 유지)<br><br>
       <strong>취미</strong><br>
-      웨이트 트레이닝 주 3~4회<br>
+      웨이트 트레이닝 주 3~4회 (체력 관리 및 자기관리)<br>
       축구 동호회 월 2~3회
     </td>
     <td valign="top">
