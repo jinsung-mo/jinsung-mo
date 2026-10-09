@@ -6,9 +6,28 @@ Java와 Spring Boot를 주로 사용하는 신입 백엔드 개발자입니다.
 
 [포트폴리오 보기](https://jinsung-mo.github.io/)
 
-| 꾸준히 하는 일 | 사용하는 기술 |
-| :--- | :--- |
-| 알고리즘 문제 **매일 1개**<br>웨이트 트레이닝 **주 3~4회**<br>축구 동호회 **월 2~3회** | **주력**<br>![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)<br>Spring Data JPA · SQL<br><br>**함께 사용한 기술**<br>HTML · CSS · JavaScript · REST API · Flyway · Git · Jira<br><br>**프로젝트 경험**<br>WebSocket · STOMP · Python · Flask · Docker · AWS EC2 |
+<table width="100%">
+  <tr>
+    <th width="38%" align="left">꾸준히 하는 일</th>
+    <th align="left">사용하는 기술</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      알고리즘 문제 <strong>매일 1개</strong><br>
+      웨이트 트레이닝 <strong>주 3~4회</strong><br>
+      축구 동호회 <strong>월 2~3회</strong>
+    </td>
+    <td valign="top">
+      <strong>주력</strong><br>
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java"> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL"><br>
+      Spring Data JPA · SQL<br><br>
+      <strong>함께 사용한 기술</strong><br>
+      HTML · CSS · JavaScript · REST API · Flyway · Git · Jira<br><br>
+      <strong>프로젝트 경험</strong><br>
+      WebSocket · STOMP · Python · Flask · Docker · AWS EC2
+    </td>
+  </tr>
+</table>
 
 ## 해결한 문제
 
