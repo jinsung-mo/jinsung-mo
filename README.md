@@ -27,3 +27,7 @@ WebSocket · STOMP · Python · Flask · Docker · AWS EC2
 - **영상 분석 결과가 늦게 반영됐을 때** — [빈자리](https://github.com/jinsung-mo/Smart-Parking-Lot-Monitoring-Service_BINJAIR)에서 추론할 프레임을 줄이고 상태 전이 기준을 조정했습니다. 프로젝트 기록상 결과 반영 시간은 약 10초에서 3초 이내로 줄었습니다.
 
 컴퓨터공학을 전공했고, SSAFY 15기 Java 과정에서 웹 개발을 공부했습니다. 정보처리기사 자격을 보유하고 있습니다.
+
+## 꾸준히 하는 일
+
+알고리즘 문제를 매일 한 개씩 풉니다. 주 3~4회 웨이트 트레이닝을 하고, 월 2~3회 축구 동호회에 참여합니다.
