@@ -6,18 +6,9 @@ Java와 Spring Boot를 주로 사용하는 신입 백엔드 개발자입니다.
 
 [포트폴리오 보기](https://jinsung-mo.github.io/)
 
-## 사용하는 기술
-
-**주력**  
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-Spring Data JPA · SQL
-
-**함께 사용한 기술**  
-HTML · CSS · JavaScript · REST API · Flyway · Git · Jira
-
-**프로젝트 경험**  
-WebSocket · STOMP · Python · Flask · Docker · AWS EC2
+| 꾸준히 하는 일 | 사용하는 기술 |
+| :--- | :--- |
+| 알고리즘 문제 **매일 1개**<br>웨이트 트레이닝 **주 3~4회**<br>축구 동호회 **월 2~3회** | **주력**<br>![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)<br>Spring Data JPA · SQL<br><br>**함께 사용한 기술**<br>HTML · CSS · JavaScript · REST API · Flyway · Git · Jira<br><br>**프로젝트 경험**<br>WebSocket · STOMP · Python · Flask · Docker · AWS EC2 |
 
 ## 해결한 문제
 
@@ -27,7 +18,3 @@ WebSocket · STOMP · Python · Flask · Docker · AWS EC2
 - **영상 분석 결과가 늦게 반영됐을 때** — [빈자리](https://github.com/jinsung-mo/Smart-Parking-Lot-Monitoring-Service_BINJAIR)에서 추론할 프레임을 줄이고 상태 전이 기준을 조정했습니다. 프로젝트 기록상 결과 반영 시간은 약 10초에서 3초 이내로 줄었습니다.
 
 컴퓨터공학을 전공했고, SSAFY 15기 Java 과정에서 웹 개발을 공부했습니다. 정보처리기사 자격을 보유하고 있습니다.
-
-## 꾸준히 하는 일
-
-알고리즘 문제를 매일 한 개씩 풉니다. 주 3~4회 웨이트 트레이닝을 하고, 월 2~3회 축구 동호회에 참여합니다.
