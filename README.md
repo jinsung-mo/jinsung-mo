@@ -10,7 +10,7 @@ Java와 Spring Boot로 서버를 개발합니다. 로봇의 상태와 경보를 
 
 | 프로젝트 | 어떤 서비스인가요? | 제가 맡은 일 |
 | --- | --- | --- |
-| **[삐용](https://github.com/jinsung-mo/-BBIYONG-autonomous_driving_factory_patrol_robot)** | 공장을 순찰하는 로봇의 위치·영상·화재 경보를 웹에서 확인하는 시스템 | 6인 팀장과 Spring Boot 관제 서버 개발. 로봇·웹 통신을 연결하고 재전송된 경보의 중복 저장을 처리했습니다. |
+| **[삐용](https://github.com/jinsung-mo/-BBIYONG-autonomous_driving_factory_patrol_robot)** | 공장을 순찰하는 로봇의 위치·영상·화재 경보를 웹에서 확인하는 시스템 | 6인 팀의 팀장으로 Spring Boot 관제 서버를 개발했습니다. 로봇·웹 통신을 연결하고 재전송된 경보의 중복 저장을 처리했습니다. |
 | **[가볼래](https://github.com/jinsung-mo/gabolle-busan-travel)** | 외국인 여행객이 취향과 이동 조건에 맞춰 부산 여행 일정을 만드는 서비스 | 여행·일정 API와 PostgreSQL 저장 로직 개발. 여행 중복 생성과 동행자의 일정 수정 충돌을 처리했습니다. |
 | **[빈자리](https://github.com/jinsung-mo/Smart-Parking-Lot-Monitoring-Service_BINJAIR)** | 주차장 영상을 분석해 빈 주차면과 시간대별 혼잡도를 앱에 알려주는 서비스 | Flask 서버와 주차면 상태 판정, SQLite 저장·통계 구현. 팀원이 학습한 모델의 결과를 주차면 상태로 바꿔 API로 전달했습니다. |
 
