@@ -1,84 +1,38 @@
-# 🙋‍♂️ 모진성
+# 모진성 | 백엔드 개발자
 
-> **어려운 문제도 즐겁게 풀어내는 분위기 메이커이자, 소통하는 백엔드 개발자입니다.**  
-> 컴퓨터공학 전공 | SSAFY 15기 Java 과정 | 정보처리기사
+Java와 Spring Boot로 서버를 개발합니다. 로봇의 상태와 경보를 웹에 전달하는 관제 서버를 만들었고, 여행 서비스에서는 중복 요청과 동시 수정으로 데이터가 꼬이는 문제를 다뤘습니다. 수정한 내용은 DB 제약과 테스트로 확인합니다.
 
-[🔗 포트폴리오 보기](https://jinsung-mo.github.io/)
+컴퓨터공학 전공 · SSAFY 15기 Java 과정 · 정보처리기사
 
----
+[포트폴리오](https://jinsung-mo.github.io/) · [이메일](mailto:ahwlstjd57@gmail.com)
 
-## 🛠 Tech Stack & About Me
+## 주요 프로젝트
 
-<table width="100%">
-  <tr>
-    <th width="40%" align="left">특기 · 자기관리</th>
-    <th align="left">사용 기술</th>
-  </tr>
-  <tr>
-    <td valign="top">
-      <b>💡 특기</b><br>
-      • 알고리즘 문제 매일 1개 풀이<br>
-      <i>(꾸준한 코드 작성 및 문제 해결 감각 유지)</i><br><br>
-      <b>🏋️ 취미 & 체력 관리</b><br>
-      • 웨이트 트레이닝 주 3~4회<br>
-      • 축구 동호회 월 2~3회
-    </td>
-    <td valign="top">
-      <b>🔥 주력 기술</b><br>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
-      <br>
-      <code>Spring Data JPA</code> · <code>SQL</code>
-      <br><br>
-      <b>🛠 프로젝트 경험 기술</b><br>
-      • <b>Backend & DB:</b> Python, Flask, Flyway, REST API, WebSocket, STOMP<br>
-      • <b>DevOps & Tools:</b> Docker, AWS EC2, Git, Jira<br>
-      • <b>Frontend:</b> HTML, CSS, JavaScript
-    </td>
-  </tr>
-</table>
+| 프로젝트 | 어떤 서비스인가요? | 제가 맡은 일 |
+| --- | --- | --- |
+| **[삐용](https://github.com/jinsung-mo/-BBIYONG-autonomous_driving_factory_patrol_robot)** | 공장을 순찰하는 로봇의 위치·영상·화재 경보를 웹에서 확인하는 시스템 | 6인 팀장과 Spring Boot 관제 서버 개발. 로봇·웹 통신을 연결하고 재전송된 경보의 중복 저장을 처리했습니다. |
+| **[가볼래](https://github.com/jinsung-mo/gabolle-busan-travel)** | 외국인 여행객이 취향과 이동 조건에 맞춰 부산 여행 일정을 만드는 서비스 | 여행·일정 API와 PostgreSQL 저장 로직 개발. 여행 중복 생성과 동행자의 일정 수정 충돌을 처리했습니다. |
+| **[빈자리](https://github.com/jinsung-mo/Smart-Parking-Lot-Monitoring-Service_BINJAIR)** | 주차장 영상을 분석해 빈 주차면과 시간대별 혼잡도를 앱에 알려주는 서비스 | Flask 서버와 주차면 상태 판정, SQLite 저장·통계 구현. 팀원이 학습한 모델의 결과를 주차면 상태로 바꿔 API로 전달했습니다. |
 
----
+### 구현과 검증 기록
 
-## 🚀 프로젝트 (Projects)
+- **같은 경보가 여러 번 도착할 때:** 삐용에서 경보 식별자와 MySQL UNIQUE 제약으로 중복 저장을 막았습니다. 프로젝트 종료 후 같은 경보 100건을 동시에 저장하는 테스트를 추가했습니다. [검증 기록](https://github.com/jinsung-mo/-BBIYONG-autonomous_driving_factory_patrol_robot/blob/main/docs/post-project/README.md)
+- **여러 사람이 같은 일정을 수정할 때:** 가볼래에서 사용자가 읽은 버전과 DB의 최신 버전을 비교해 충돌한 수정은 거절하도록 했습니다. 메모리 저장소의 동시 요청 테스트와 실제 PostgreSQL 테스트를 나눠 작성했습니다. [구현과 테스트](https://github.com/jinsung-mo/gabolle-busan-travel#문제-해결)
+- **조회가 느릴 때:** 삐용 종료 후 합성 이벤트 20만 건으로 인덱스를 검증했습니다. 최근 24시간 경보 통계 쿼리는 55.9ms에서 4.9ms로 줄었고, 실행 계획과 재현 SQL을 남겼습니다. [측정 조건](https://github.com/jinsung-mo/-BBIYONG-autonomous_driving_factory_patrol_robot/blob/main/docs/post-project/README.md#3-인덱스-측정-결과)
 
-- **[삐용 (BBIYONG)](https://github.com/jinsung-mo/-BBIYONG-autonomous_driving_factory_patrol_robot)**
-  - 자율 순찰 로봇의 상태와 화재 경보를 웹에서 확인하는 관제 시스템입니다.
-  - 관제 서버와 로봇·웹 간 실시간 통신 및 데이터 연동을 담당했습니다.
+## 사용 기술
 
-- **[가볼래 (Gabolle)](https://github.com/jinsung-mo/gabolle-busan-travel)**
-  - 외국인 여행객이 부산 일정을 함께 생성하고 수정하는 일정 협업 서비스입니다.
-  - 여행 및 일정 관련 백엔드 API 설계와 PostgreSQL 영속성 저장 로직을 담당했습니다.
+| 구분 | 기술과 사용 경험 |
+| --- | --- |
+| 주로 사용 | Java, Spring Boot, Spring Data JPA, SQL |
+| 데이터 저장 | MySQL, PostgreSQL, Flyway |
+| 프로젝트에서 사용 | Python, Flask, WebSocket, STOMP, Docker, AWS EC2 |
+| 협업 | Git, GitLab, Jira |
 
-- **[빈자리 (BINJAIR)](https://github.com/jinsung-mo/Smart-Parking-Lot-Monitoring-Service_BINJAIR)**
-  - 주차장 영상 분석을 통해 빈자리를 찾아 앱으로 안내하는 서비스입니다.
-  - 영상 분석 서버 연동 및 실시간 주차면 상태 제공 REST API를 담당했습니다.
+## 백엔드 학습
 
----
+- **[Product Management API](https://github.com/jinsung-mo/product-management-apk):** DDD와 DIP를 학습하며 DB 구현체와 비즈니스 로직의 의존 관계를 나눴습니다.
+- **[Order Management API](https://github.com/jinsung-mo/order-management-apk):** 상태 패턴으로 주문 상태 전이를 다루고, 주문 시점의 상품 정보를 별도 스냅샷으로 보관했습니다.
+- **[알고리즘 풀이](https://github.com/jinsung-mo/Daily_moss_PS):** 매일 한 문제씩 풀고 기록합니다.
 
-## 🏛 아키텍처 & 백엔드 학습
-
-- **[Product Management API](https://github.com/jinsung-mo/product-management-apk)**
-  - 도메인 주도 설계(DDD)와 DIP(의존성 역전 원칙)를 기반으로 DB 구현체 변경에도 비즈니스 로직이 영향받지 않도록 아키텍처를 실습한 프로젝트입니다.
-
-- **[Order Management API](https://github.com/jinsung-mo/order-management-apk)**
-  - 상태 패턴(State Pattern)을 적용해 조건문 없는 상태 전이를 구현하고, 주문 시점 스냅샷으로 데이터 무결성을 다룬 객체지향 아키텍처 학습 프로젝트입니다.
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jinsung-mo&show_icons=true&theme=radial" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinsung-mo&layout=compact&theme=radial" height="150" />
-</div>
-
-<br>
-
-<div align="center">
-  <a href="https://solved.ac/ahwlstjd57">
-    <img src="https://mazassumnida.wtf/api/v2/generate_badge?badge_id=ahwlstjd57" />
-  </a>
-</div>
+운동은 웨이트 트레이닝과 축구를 꾸준히 하고 있습니다.
