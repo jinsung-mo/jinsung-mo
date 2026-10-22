@@ -1,7 +1,7 @@
 ### 안녕하세요, 백엔드 개발자 모진성입니다 👋
 
-요청이 몇 번 와도 데이터는 한 번만 정확하게 남는 서버를 만들고 싶어요.<br>
-Java와 Spring Boot로 서버를 만들고, 데이터가 꼬이기 쉬운 곳은 DB 제약으로 막은 다음 테스트로 직접 확인합니다.
+Java와 Spring Boot로 백엔드를 개발하고 있습니다.<br>
+SSAFY에서 로봇 관제 서버와 여행 일정 서비스를 만들면서 중복 요청이나 동시 수정 같은 데이터 문제를 많이 다뤄봤어요.
 
 - 🎓 컴퓨터공학 전공 · SSAFY 15기 Java 과정 · 정보처리기사
 - 🔗 [포트폴리오](https://jinsung-mo.github.io/) · [ahwlstjd57@gmail.com](mailto:ahwlstjd57@gmail.com)
@@ -91,9 +91,16 @@ Idempotency-Key를 DB에 먼저 저장한 요청만 여행을 만들도록 순�
 
 ### 기술
 
-<img src="https://skillicons.dev/icons?i=java,spring,mysql,postgres,docker,aws" height="36" alt="Java, Spring, MySQL, PostgreSQL, Docker, AWS">
+**주로 쓰는 기술**<br>
+<img src="https://skillicons.dev/icons?i=java,spring,mysql,postgres" height="36" alt="Java, Spring, MySQL, PostgreSQL"><br>
+<sub>Java · Spring Boot · Spring Data JPA · MySQL · PostgreSQL · Flyway</sub>
 
-<sub>Spring Data JPA · Flyway · WebSocket/STOMP · Python/Flask · Git · Jira</sub>
+**프로젝트에서 써본 기술**<br>
+<img src="https://skillicons.dev/icons?i=python,flask,sqlite,docker,aws" height="36" alt="Python, Flask, SQLite, Docker, AWS"><br>
+<sub>Python · Flask · SQLite · WebSocket · STOMP · Docker · AWS EC2</sub>
+
+**협업**<br>
+<sub>Git · GitLab · Jira</sub>
 
 <br>
 
