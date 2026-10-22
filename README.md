@@ -92,15 +92,12 @@ Idempotency-Key를 DB에 먼저 저장한 요청만 여행을 만들도록 순�
 ### 기술
 
 **주로 쓰는 기술**<br>
-<img src="https://skillicons.dev/icons?i=java,spring,mysql,postgres" height="36" alt="Java, Spring, MySQL, PostgreSQL"><br>
-<sub>Java · Spring Boot · Spring Data JPA · MySQL · PostgreSQL · Flyway</sub>
+<img src="https://skillicons.dev/icons?i=java,spring,mysql,postgres,git" height="36" alt="Java, Spring, MySQL, PostgreSQL, Git"><br>
+<sub>Java · Spring Boot · Spring Data JPA · MySQL · PostgreSQL · Git · Jira</sub>
 
 **프로젝트에서 써본 기술**<br>
-<img src="https://skillicons.dev/icons?i=python,flask,sqlite,docker,aws" height="36" alt="Python, Flask, SQLite, Docker, AWS"><br>
-<sub>Python · Flask · SQLite · WebSocket · STOMP · Docker · AWS EC2</sub>
-
-**협업**<br>
-<sub>Git · GitLab · Jira</sub>
+<img src="https://skillicons.dev/icons?i=python,flask,sqlite,docker,aws,gitlab" height="36" alt="Python, Flask, SQLite, Docker, AWS, GitLab"><br>
+<sub>Python · Flask · SQLite · WebSocket · STOMP · Docker · AWS EC2 · GitLab</sub>
 
 <br>
 
