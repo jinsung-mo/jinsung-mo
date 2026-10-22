@@ -111,7 +111,7 @@ Idempotency-Key를 DB에 먼저 저장한 요청만 여행을 만들도록 순�
 
 <br>
 
-### 요즘 하고 있는 것
+### 개인 프로젝트로 공부한 것
 
 - [Product Management API](https://github.com/jinsung-mo/product-management-apk) · DDD와 DIP를 공부하며 DB 구현체와 비즈니스 로직의 의존 관계를 나눴습니다.
 - [Order Management API](https://github.com/jinsung-mo/order-management-apk) · 상태 패턴으로 주문 상태 전이를 다루고, 주문 시점의 상품 정보를 스냅샷으로 남겼습니다.
