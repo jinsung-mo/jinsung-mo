@@ -115,7 +115,8 @@ Idempotency-Key를 DB에 먼저 저장한 요청만 여행을 만들도록 순�
 
 - [Product Management API](https://github.com/jinsung-mo/product-management-apk) · DDD와 DIP를 공부하며 DB 구현체와 비즈니스 로직의 의존 관계를 나눴습니다.
 - [Order Management API](https://github.com/jinsung-mo/order-management-apk) · 상태 패턴으로 주문 상태 전이를 다루고, 주문 시점의 상품 정보를 스냅샷으로 남겼습니다.
-- [알고리즘 풀이](https://github.com/jinsung-mo/Daily_moss_PS) · 매일 한 문제씩 풀고 기록하고 있습니다.
+
+알고리즘은 [Daily_moss_PS](https://github.com/jinsung-mo/Daily_moss_PS)에 매일 한 문제씩 풀고 기록하고 있습니다.
 
 <br>
 
