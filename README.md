@@ -2,6 +2,7 @@
 
 Java와 Spring Boot로 백엔드를 개발하고 있습니다.<br>
 SSAFY에서 로봇 관제 서버와 여행 일정 서비스를 만들면서 중복 요청이나 동시 수정 같은 데이터 문제를 많이 다뤘습니다.<br>
+지금은 로보터블 기업연계 프로젝트에서 조리 영상의 동작 구간을 찾는 실험을 하고 있습니다.<br>
 팀 프로젝트에서는 각자 만든 코드가 하나로 잘 맞물리도록 작업 규칙을 먼저 맞추고, 막힌 연결 지점을 풀어 팀원들이 계속 개발할 수 있게 하는 일을 중요하게 생각합니다.
 
 - 🎓 컴퓨터공학 전공 · SSAFY 15기 Java 과정 · 정보처리기사
@@ -13,7 +14,7 @@ SSAFY에서 로봇 관제 서버와 여행 일정 서비스를 만들면서 중�
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 <a href="https://github.com/jinsung-mo/-BBIYONG-autonomous_driving_factory_patrol_robot"><img src="assets/bbiyong.png" alt="삐용 관제 웹의 3D 지도와 로봇 상태 화면"></a>
 
 **[삐용](https://github.com/jinsung-mo/-BBIYONG-autonomous_driving_factory_patrol_robot)** · 순찰 로봇 관제<br>
@@ -23,17 +24,30 @@ SSAFY에서 로봇 관제 서버와 여행 일정 서비스를 만들면서 중�
 
 🏆 SSAFY 공통프로젝트 우수상
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 <a href="https://github.com/jinsung-mo/gabolle-busan-travel"><img src="assets/gabolle.png" alt="가볼래 여행 만들기 화면과 지도 경로 화면"></a>
 
 **[가볼래](https://github.com/jinsung-mo/gabolle-busan-travel)** · 부산 여행 일정<br>
-<sub>2026.08 ~ 09 · 6인 팀</sub>
+<sub>2026.08 ~ 진행 중 · 6인 팀</sub>
 
-외국인 여행객을 위한 일정 서비스에서 여행·일정 API와 PostgreSQL 저장을 맡았습니다.
+외국인 여행객을 위한 일정 서비스에서 여행·일정 API와 PostgreSQL 저장을 맡았습니다. SSAFY 기간이 끝난 뒤에도 팀이 앱 업데이트를 이어 가고 있습니다.
 
-🏆 SSAFY 프로젝트 우수상
+🏆 SSAFY 특화프로젝트 우수상<br>
+🎪 FLY ASIA 2026 전시
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://jinsung-mo.github.io/#robotable"><img src="assets/robotable.png" alt="볶음밥 조리 영상에서 준비, 달걀 투입, 채소 넣고 볶기, 밥 투입 시점을 보여 주는 프레임 네 장"></a>
+
+**[로보터블 기업연계](https://jinsung-mo.github.io/#robotable)** · 조리 영상 구간 검출<br>
+<sub>2026.10 ~ 진행 중 · 6인 팀</sub>
+
+조리 로봇 학습용 영상에서 동작 구간의 경계를 찾는 파이프라인을 만들고 있습니다. VLM 입력을 사진에서 저해상도 영상 조각으로 바꿔 판독 토큰을 팀 방식의 9.4%로 줄이는 실험을 했습니다.
+
+🤝 로보터블 × SSAFY 기업연계 프로젝트
+</td>
+<td width="50%" valign="top">
 <a href="https://github.com/jinsung-mo/Smart-Parking-Lot-Monitoring-Service_BINJAIR"><img src="assets/binjari.png" alt="빈자리 앱의 주차장 지도와 시간대별 점유율 화면"></a>
 
 **[빈자리](https://github.com/jinsung-mo/Smart-Parking-Lot-Monitoring-Service_BINJAIR)** · 주차장 빈자리 안내<br>
@@ -97,6 +111,15 @@ Idempotency-Key를 DB에 먼저 저장한 요청만 여행을 만들도록 순�
 [측정 조건 보기](https://github.com/jinsung-mo/-BBIYONG-autonomous_driving_factory_patrol_robot/blob/main/docs/post-project/README.md#3-인덱스-측정-결과)
 </details>
 
+<details>
+<summary><b>AI 라벨 점수를 사람 정답으로 다시 확인하기</b> · 로보터블</summary>
+<br>
+
+AI 라벨로 학습하고 평가해 경계 F1 0.792가 나온 팀 모델을 사람이 검수한 16편에 그대로 적용하니 0.204였습니다. 같은 개수를 무작위로 찍은 값(0.196)과 다르지 않았습니다. AI 라벨은 손을 옮기는 순간까지 경계로 세서 분당 23.4개를 가르쳤고, 사람 정답은 분당 3.8개였습니다. 그래서 학습 라벨의 경계 기준을 사람 쪽에 맞추는 일을 먼저 하자고 제안했습니다(팀 결정 전).
+
+[포트폴리오에서 보기](https://jinsung-mo.github.io/#robotable-case)
+</details>
+
 <br>
 
 ### 기술
@@ -106,8 +129,8 @@ Idempotency-Key를 DB에 먼저 저장한 요청만 여행을 만들도록 순�
 <sub>Java · Spring Boot · Spring Data JPA · MySQL · PostgreSQL · Git · Jira</sub>
 
 **프로젝트에서 써본 기술**<br>
-<img src="https://skillicons.dev/icons?i=python,flask,sqlite,docker,aws,gitlab" height="36" alt="Python, Flask, SQLite, Docker, AWS, GitLab"><br>
-<sub>Python · Flask · SQLite · WebSocket · STOMP · Docker · AWS EC2 · GitLab</sub>
+<img src="https://skillicons.dev/icons?i=python,flask,pytorch,sqlite,docker,aws,gitlab" height="36" alt="Python, Flask, PyTorch, SQLite, Docker, AWS, GitLab"><br>
+<sub>Python · Flask · PyTorch · Gemini API · SQLite · WebSocket · STOMP · Docker · AWS EC2 · GitLab</sub>
 
 <br>
 
