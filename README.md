@@ -42,10 +42,11 @@ SSAFY에서 로봇 관제 서버와 여행 일정 서비스를 만들면서 중�
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://jinsung-mo.github.io/#robotable"><img src="assets/robotable.png" alt="볶음밥 조리 영상에서 준비, 달걀 투입, 채소 넣고 볶기, 밥 투입 시점을 보여 주는 프레임 네 장"></a>
+<a href="https://lab.ssafy.com/s15-final/S15P31E109"><img src="assets/robotable.png" alt="볶음밥 조리 영상에서 준비, 달걀 투입, 채소 넣고 볶기, 밥 투입 시점을 보여 주는 프레임 네 장"></a>
 
-**[로보터블 기업연계](https://jinsung-mo.github.io/#robotable)** · 요리 영상 구간 분할<br>
-<sub>2026.10 ~ 진행 중 · 6인 팀</sub>
+**[로보터블 기업연계](https://lab.ssafy.com/s15-final/S15P31E109)** · 요리 영상 구간 분할<br>
+<sub>2026.10 ~ 진행 중 · 6인 팀</sub><br>
+<sub>SSAFY GitLab 비공개 저장소(로그인 필요) · 외부에서는 [포트폴리오](https://jinsung-mo.github.io/#robotable)에서 볼 수 있습니다</sub>
 
 고정 화각 요리 영상을 행동별 구간으로 나누면서, VLM 토큰 사용량을 줄이는 방법론을 찾는 프로젝트입니다. 이후 요리 영상을 레시피, 숏츠, 블로그 글로 만들어 주는 B2C 앱을 구상하고 있습니다.
 
