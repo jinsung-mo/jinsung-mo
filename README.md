@@ -1,9 +1,11 @@
 ### 안녕하세요, 백엔드 개발자 모진성입니다 👋
 
 Java와 Spring Boot로 백엔드를 개발하고 있습니다.<br>
-SSAFY에서 로봇 관제 서버와 여행 일정 서비스를 만들면서 중복 요청이나 동시 수정 같은 데이터 문제를 많이 다뤘습니다.<br>
-지금은 로보터블 기업연계 프로젝트에서 요리 영상을 행동별 구간으로 나누는 방법론을 찾고 있습니다.<br>
-팀 프로젝트에서는 각자 만든 코드가 하나로 잘 맞물리도록 작업 규칙을 먼저 맞추고, 막힌 연결 지점을 풀어 팀원들이 계속 개발할 수 있게 하는 일을 중요하게 생각합니다.
+SSAFY에서 로봇 관제 서버와 여행 일정 서비스를 만들면서, 중복 요청이나 동시 수정처럼 데이터가 어긋나는 문제를 DB 단에서 막는 일을 주로 했습니다.
+
+팀장을 맡았을 때는 작업 규칙부터 맞추고 막혀 있던 로봇 연결 코드를 먼저 짜서, 팀원들이 기다리지 않고 실제 데이터로 개발을 이어 가게 했습니다. 팀원들과 함께 만든 AI 코딩 협업 도구 axMap은 지금도 매주 다듬고 있습니다.
+
+새로운 기술은 실제 서비스에 붙여 보면서 익히는 편입니다. 여행 앱에 AI 챗봇을 붙이면서 엉뚱한 가게를 추천하지 않도록 답의 구조를 바꿨고, 지금은 로보터블 기업연계 프로젝트에서 영상 분석에 드는 비용을 줄이는 방법을 실험하고 있습니다. 매일 알고리즘을 한 문제씩 풀고, 프로젝트가 끝난 뒤에도 테스트를 더해 결과를 다시 확인합니다.
 
 - 🎓 컴퓨터공학 전공 · SSAFY 15기 Java 과정 · 정보처리기사
 - 🔗 [포트폴리오](https://jinsung-mo.github.io/) · [ahwlstjd57@gmail.com](mailto:ahwlstjd57@gmail.com)
@@ -42,19 +44,6 @@ SSAFY에서 로봇 관제 서버와 여행 일정 서비스를 만들면서 중�
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://lab.ssafy.com/s15-final/S15P31E109"><img src="assets/robotable.png" alt="볶음밥 조리 영상에서 준비, 달걀 투입, 채소 넣고 볶기, 밥 투입 시점을 보여 주는 프레임 네 장"></a>
-
-**[로보터블 기업연계](https://lab.ssafy.com/s15-final/S15P31E109)** · 요리 영상 구간 분할<br>
-<sub>2026.10 ~ 진행 중 · 6인 팀</sub><br>
-<sub>SSAFY GitLab 비공개 저장소(로그인 필요) · 외부에서는 [포트폴리오](https://jinsung-mo.github.io/#robotable)에서 볼 수 있습니다</sub>
-
-고정 화각 요리 영상을 행동별 구간으로 나누면서, VLM 토큰 사용량을 줄이는 방법론을 찾는 프로젝트입니다. 이후 요리 영상을 레시피, 숏츠, 블로그 글로 만들어 주는 B2C 앱을 구상하고 있습니다.
-
-**맡은 역할** S1(예상 구간 추출) 논문 방법 비교, VLM 입력 방식 실험, 사람 정답 기준 검증
-
-🤝 로보터블 × SSAFY 기업연계 프로젝트
-</td>
-<td width="50%" valign="top">
 <a href="https://github.com/jinsung-mo/Smart-Parking-Lot-Monitoring-Service_BINJAIR"><img src="assets/binjari.png" alt="빈자리 앱의 주차장 지도와 시간대별 점유율 화면"></a>
 
 **[빈자리](https://github.com/jinsung-mo/Smart-Parking-Lot-Monitoring-Service_BINJAIR)** · 주차장 빈자리 안내 앱<br>
@@ -65,6 +54,24 @@ SSAFY에서 로봇 관제 서버와 여행 일정 서비스를 만들면서 중�
 **맡은 역할** Flask 영상 분석 서버, 주차면 상태 판정, 상태 API
 
 🏆 교내 소프트웨어 전시회 인기상
+</td>
+<td width="50%" valign="top">
+
+**그 밖의 프로젝트**
+
+**[axMap](https://github.com/rl2aderjoon/axmap)** · AI 코딩 도구 협업 CLI<br>
+<sub>2026.08 ~ 진행 중 · 예약 겹침 판정 규칙 설계와 검증 · npm 다운로드 23,794회</sub>
+
+**[로보터블 기업연계](https://lab.ssafy.com/s15-final/S15P31E109)** · 요리 영상 구간 분할<br>
+<sub>2026.10 ~ 진행 중 · VLM 판독 토큰 90% 절감 · SSAFY GitLab 비공개 저장소(로그인 필요), 외부에서는 [포트폴리오](https://jinsung-mo.github.io/#robotable)에서 볼 수 있습니다</sub>
+
+**[써트맵](https://github.com/jinsung-mo/certmap)** · 학습 계획 서비스 창업팀<br>
+<sub>2025.03 ~ 12 · 백엔드, JWT·소셜 로그인 · 부산 U창업 패키지 선발</sub>
+
+**[데이콘 RAG](https://dacon.io/competitions/official/236295/overview/description)** · 재정정보 AI 검색 알고리즘 경진대회<br>
+<sub>2024 · 하이브리드 검색과 QLoRA로 검증 F1 0.217 → 0.411 · 리더보드 상위 31%</sub>
+
+<sub>[포트폴리오의 그 밖의 프로젝트](https://jinsung-mo.github.io/#more-projects)에서 자세히 볼 수 있습니다.</sub>
 </td>
 </tr>
 </table>
@@ -135,25 +142,26 @@ SSAFY에서 로봇 관제 서버와 여행 일정 서비스를 만들면서 중�
 </details>
 
 <details>
-<summary><b>VLM 판독 토큰이 너무 많이 들던 문제 (100% → 9.4%)</b> · 로보터블</summary>
+<summary><b>AI 챗봇이 부산이 아닌 서울에 있는 가게를 추천하던 문제</b> · 가볼래</summary>
 <br>
 
-**문제** 프레임을 사진으로 한 장씩 VLM에 보내면, 사람 검수 16편을 판독하는 데 344만 토큰이 들었습니다.<br>
-**해결** 원본 시각을 새긴 480px 저해상도 영상 조각(0.5fps, 120초)으로 입력을 바꿨습니다.<br>
-**결과** 판독 토큰은 팀 방식의 9.4%로 줄었고, 경계 F1(±5초)은 0.674에서 0.708로 떨어지지 않았습니다(팀 결정 전 제안).
+**문제** 첫 버전의 챗봇은 답장을 모델이 자유롭게 써서, 부산 여행 앱인데 서울에 있는 가게를 추천하는 답이 나왔습니다.<br>
+**원인** 모델이 가볼래 데이터가 아니라 학습한 지식으로 답했고, 모델이 쓴 문장이 그대로 사용자에게 나가는 구조였습니다.<br>
+**해결** 답장은 모델이 채운 값만으로 서버가 조립하게 했고, 일정을 대신 짜는 기능을 빼 화면 안내·여행 문장·도움말 세 가지로만 답하게 좁혔습니다. 버스 도착 시간이나 환율 같은 숫자는 직접 말하지 않고 실제 데이터 화면으로 안내합니다.<br>
+**결과** 실제 Gemini 호출로 확인해 보니, 장소 추천을 요청해도 이름을 지어내지 않고 여행 만들기 화면으로 안내했습니다.
 
-[포트폴리오에서 보기](https://jinsung-mo.github.io/#robotable)
+[자세히 보기](https://github.com/jinsung-mo/gabolle-busan-travel#5-ai-챗봇이-부산이-아닌-서울에-있는-가게를-추천하던-문제)
 </details>
 
 <details>
-<summary><b>AI 라벨로는 0.79였던 모델 점수가 사람 정답에서는 무작위 수준이던 문제</b> · 로보터블</summary>
+<summary><b>차가 잠깐 가려지면 주차면 상태가 흔들리던 문제</b> · 빈자리</summary>
 <br>
 
-**문제** AI 라벨로 학습하고 평가해 경계 F1 0.792가 나온 팀 모델을 사람이 검수한 16편에 그대로 적용하니 0.204였습니다. 같은 개수를 무작위로 찍은 값(0.196)과 다르지 않았습니다.<br>
-**원인** AI 라벨은 손을 옮기는 순간까지 경계로 세서 분당 23.4개를 가르쳤고, 사람 정답은 분당 3.8개였습니다.<br>
-**해결 제안** 학습 라벨의 경계 기준을 사람 쪽에 맞추는 일을 먼저 하자고 제안했습니다(팀 결정 전). 조리 단계 중심 규칙으로 다시 학습하자 0.204가 0.385로 올랐습니다.
+**문제** 차가 잠깐 가려지거나 탐지가 한 번 빠질 때 상태를 바로 바꾸면, 차가 있는 자리를 비었다고 안내해 운전자가 헛걸음을 할 수 있었습니다.<br>
+**해결** 최근 판단을 모아 차가 들어온 건 5번, 빠진 건 8번 연속으로 확인해야 상태를 바꾸게 했습니다. 출차가 조금 늦게 반영되더라도 잘못된 빈자리 안내를 줄이는 쪽을 골랐고, 확정된 상태만 저장해 앱에 보냈습니다.<br>
+**결과** 실제 주차장 영상에서 B5에 차가 들어오면 앱의 빈자리가 2개에서 1개로 바뀌는 것을 확인했습니다. 5프레임 중 1개만 분석해 모델 추론 횟수도 80% 줄였습니다.
 
-[포트폴리오에서 보기](https://jinsung-mo.github.io/#robotable-case)
+[포트폴리오에서 보기](https://jinsung-mo.github.io/#binjari-cases)
 </details>
 
 <br>
@@ -166,12 +174,13 @@ SSAFY에서 로봇 관제 서버와 여행 일정 서비스를 만들면서 중�
 
 **프로젝트에서 써본 기술**<br>
 <img src="https://skillicons.dev/icons?i=python,flask,pytorch,sqlite,docker,aws,gitlab" height="36" alt="Python, Flask, PyTorch, SQLite, Docker, AWS, GitLab"><br>
-<sub>Python · Flask · PyTorch · Gemini API · SQLite · WebSocket · STOMP · Docker · AWS EC2 · GitLab</sub>
+<sub>Python · Flask · PyTorch · Gemini API · RAG · QLoRA · SQLite · WebSocket · STOMP · WebRTC · Docker · AWS EC2 · GitLab</sub>
 
 <br>
 
 ### 개인 프로젝트로 공부한 것
 
+- [Mini MES](https://github.com/jinsung-mo/mini-mes) · C#으로 만든 MES 레거시 서비스를 같은 API 계약을 지키며 Spring Boot로 옮기고 있습니다(진행 중).
 - [Product Management API](https://github.com/jinsung-mo/product-management-apk) · DDD와 DIP를 공부하며 DB 구현체와 비즈니스 로직의 의존 관계를 나눴습니다.
 - [Order Management API](https://github.com/jinsung-mo/order-management-apk) · 상태 패턴으로 주문 상태 전이를 다루고, 주문 시점의 상품 정보를 스냅샷으로 남겼습니다.
 
